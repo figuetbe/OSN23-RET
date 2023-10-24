@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "osn23-ret"
+version = "0.1.0"
+description = "Code for OSN23 Go-Arounds analysis"
+authors = ["figuetbe <benoit.figuet@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+traffic = "^2.9.0"
+scipy = "^1.11.3"
+numpy = "^1.26.1"
+plotly = "^5.17.0"
+notebook = "^7.0.6"
+xgboost = "^2.0.1"
+scikit-learn = "^1.3.2"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
